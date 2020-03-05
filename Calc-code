@@ -1,0 +1,31 @@
+def my_calc():
+ print("Menu-Options")
+ print("_______________________")
+ print("Enter ADD to add two numbers")
+ print("Enter SUB to subtract two numbers")
+ print("Enter MULT to multiply two number")
+ print("Enter DIV to divide two numbers")
+ user_input=input("")
+ if (user_input=="ADD"):
+   NUM1=int(input())
+   NUM2=int(input())
+   add=NUM1 + NUM2
+   print(add)
+ elif (user_input=="SUB"):
+  NUM1=int(input())
+  NUM2=int(input())
+  sub=NUM1 - NUM2
+  print(sub)
+ elif (user_input=="MULT"):
+  NUM1=int(input())
+  NUM2=int(input())
+  mult=NUM1 * NUM2
+  print(mult)
+ elif (user_input=="DIV"):
+  NUM1=int(input())
+  NUM2=int(input())
+  div=NUM1/NUM2
+  print(div)
+ else :
+  print("INVALID CHOICE")
+my_calc()
